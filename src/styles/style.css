@@ -1,0 +1,20 @@
+button#menu-button {
+  width: 3rem;
+  height: 3rem;
+  justify-items: center;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+div.menu-popup {
+  display: grid;
+  grid-auto-flow: row;
+  width: 16rem;
+}
+
+button.menu-item {
+    text-align: start; 
+    text-overflow: clip; 
+    border: none; 
+    padding-left: 0.8rem;
+}
